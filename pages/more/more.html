@@ -1,0 +1,29 @@
+<section class="more__page section-contact container-fluid py-5 px-sm-5 min-vh-100">
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-5" id="tab">
+        <a href="#!more/FAQ" class="nav-link" id="FAQ-tab" data-bs-target="#FAQ">FAQ</a>
+        <a href="#!more/feedback" class="nav-link" id="feedback-tab" data-bs-target="#feedback">Feedback</a>
+        <a href="#!more/download" class="nav-link" id="download-tab" data-bs-target="#download">Download</a>
+      </div>
+  
+      <div class="tab-content" id="tabContent">
+        <div class="tab-pane fade show" id="FAQ">
+          <div ng-include="'pages/more/FAQ.html'"></div>
+        </div>
+        <div class="tab-pane fade" id="download">
+          <div ng-include="'pages/more/download.html'"></div>
+        </div>
+        <div class="tab-pane fade" id="feedback">
+          <div ng-include="'pages/more/feedback.html'"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    $(document).ready(function () {
+      var hash = window.location.hash.substr(8);
+      var someTabTriggerEl = document.querySelector("#" + hash + "-tab");
+      var tab = new bootstrap.Tab(someTabTriggerEl);
+      tab.show();
+    });
+  </script>
