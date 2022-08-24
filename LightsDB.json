@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "brand" :"Body Exfoliators",
+    "type" : "BODY",
+    "nameItem": "BODY FIT",
+    "price": 499,
+    "description": "Body Fit minimises the appearance of cellulite while refining, instantly lifting and reshaping the body's contours. Developed through Clarins research, quince leaf extract targets the three main factors responsible for the appearance of cellulite for visibly refined contours.",
+    "img": "images/body/body_fit01.png",
+    "imgReal": "images/body/body_fit02.png"
+  },
+  {
+    "id": 1,
+    "brand" :"Body Exfoliators",
+    "type" : "BODY",
+    "nameItem": "Contour Body Treatment Oil",
+    "price": 599,
+    "description": "Effective body-contouring, moisturising and detoxifying body treatment full of essential oils. Full of natural goodness that cares for skin with 100% pure plant extracts including Broom, Geranium and Marjoram — it helps to eliminate toxins and prevents sponginess.",
+    "img": "images/body/body_oil01.png",
+    "imgReal": "images/body/body_oil02.png"
+  },
+  {
+    "id": 2,
+    "brand" :"Body Contouring",
+    "type" : "BODY",
+    "nameItem": "Exfoliating Body Scrub",
+    "price": 399,
+    "description": "The essential first step to achieving a firm, youthful-looking body, this refreshing, moisturising and exfoliating treatment (with smoothing Natural Bamboo Powders and a hint of ginger) 'rubs away' rough, flaky surface cells and impurities, giving skin a sleek new start. Also, prepares skin for the treatment that follows.",
+    "img": "images/body/body_scrub01.png",
+    "imgReal": "images/body/body_scrub02.png"
+  },
+  {
+    "id": 3,
+    "brand" :"Body Contouring",
+    "type" : "BODY",
+    "nameItem": "Tonic Body Polisher",
+    "price": 370,
+    "description": "It is the ultimate glow-getter! Clarins spa-fresh body polisher—with essential oils of Rosemary, Rosewood, Mint, Sugar and Salt Crystals—feels ooh la la luxurious as it smoothes away dry cells, flakes and impurities to reveal the glowing skin beneath. Leaves skin looking toned, radiant and sleek.",
+    "img": "images/body/body_tonic01.png",
+    "imgReal": "images/body/body_tonic02.png"
+  },
+  {
+    "id": 4,
+    "brand" :"Face Serum",
+    "type": "FACE",
+    "nameItem": "DOUBLE SERUM 2017",
+    "price": 295,
+    "description": "Clarins Double Serum is a Complete Age Control Concentrate formulated to help work on the 5 vital functions of the skin for a more youthful and radiant complexion.",
+    "img": "images/face/face_serum01.png",
+    "imgReal": "images/face/face_serum02.png"
+  },
+  {
+    "id": 5,
+    "brand" :"Face Serum",
+    "type": "FACE",
+    "nameItem": "V Shaping Facial Lift",
+    "price": 490,
+    "description": "The lifting serum that refines the face and accentuates your most alluring curves to reshape contours and profile.",
+    "img": "images/face/face_v01.png",
+    "imgReal": "images/face/face_v02.png"
+  },
+  {
+    "id": 6,
+    "brand" :"Cleansers & Toners",
+    "type": "FACE",
+    "nameItem": "Velvet Cleansing Milk",
+    "price": 379,
+    "description": "A creamy cleansing milk with gentle, purifying Alpine herbs that melts away lightweight makeup, impurities, and pollutants while preserving the skin's microbiota. Leaves skin feeling soft, clean, hydrated, and incredibly comfortable—simply rinse off with water or wipe with a cotton pad soaked in toning lotion.",
+    "img": "images/face/face_milk01.png",
+    "imgReal": "images/face/face_milk02.png"
+  },
+  {
+    "id": 7,
+    "brand" :"Cleansers & Toners",
+    "type": "FACE",
+    "nameItem": "Gentle Foaming Hydrating Cleanser",
+    "price": 525,
+    "description": "Creamy, rinse-off, hydrating cleanser for normal to dry skin with purifying Alpine herbs sourced from our own farm, Le Domaine Clarins, and naturally lathering Organic Saponaria—which allows the formula to be soap- and SLS-free—water-activates into a silky foam that gently and effectively removes impurities, makeup, and pollution while preserving the skin's natural microbiota..",
+    "img": "images/face/face_clear01.png",
+    "imgReal": "images/face/face_clear02.png"
+  },
+  {
+    "id": 8,
+    "brand": "Body Care For Men",
+    "type": "MEN",
+    "nameItem": "MEN RASAGE IDEAL",
+    "price": 255,
+    "description": "When it comes to a man’s face, ClarinsMen have the answers, like this new shaving gel. Smooth Shave’s foaming gel cushions skin for easy razor glide—so you can protect and manage your most challenging angles with expert handling and control, while avoiding irritation with this moisturising and natural shaving gel formula. Soothes, energises and purifies with Bison Grass and Chinese Galanga. Shaving gel clinically tested on the toughest beards.",
+    "img": "images/men/men_ideal01.png",
+    "imgReal": "images/men/men_ideal02.png"
+  },
+  {
+    "id": 9,
+    "brand": "Body Care For Men",
+    "type": "MEN",
+    "nameItem": "ClarinsMen Shampoo & Shower",
+    "price": 255,
+    "description": "An invigorating, 2-in-1 wash that gently cleanses hair and body. Tones skin with energising Bison Grass and Chinese Galanga. Conditions hair with Provitamin B5. Gentle enough to use each morning and evening. For all hair and skin types, even sensitive skin..",
+    "img": "images/men/men_showe01.png",
+    "imgReal": "images/men/men_showe02.png"
+  },
+  {
+    "id": 10,
+    "brand": "Shave For Men",
+    "type": "MEN",
+    "nameItem": "ClarinsMen After Shave Energizer",
+    "price": 255,
+    "description": "Gear up to the next generation of bottled after shave lotions for the perfect shave. ClarinsMen After Shave Energizer invigorating post-shave lotion contains; Purslane, Centella and Blue Alpine Thistle extracts to purify, reduce irritations and take the heat off razor burns. This after shave lotion is so refreshing, shaving will become a real pleasure..",
+    "img": "images/men/men_shave01.png",
+    "imgReal": "images/men/men_shave02.png"
+  },
+  {
+    "id": 11,
+    "brand": "Shave For Men",
+    "type": "MEN",
+    "nameItem": "Super Moisture Gel",
+    "price": 255,
+    "description": "Need some hydration and cooling off, like a bracing Italian ice on a hot summer day? Super Moisture Gel to the rescue: a moisturising gel for men that's ultra-cool and non-greasy..",
+    "img": "images/men/men_super01.png",
+    "imgReal": "images/men/men_super02.png"
+  }
+]
