@@ -1,0 +1,55 @@
+<section>
+    <div style="margin: 30px 0">
+        <table class="table table-hover">
+            <h1 align="center">USER INFORMATON</h1>
+            <tr>
+                <th>ID</th>
+                <th>Fullname</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Gen</th>
+                <th>Country</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="align-middle" ng-click="getRecord(userData)">
+                <td>{{userData.id}}</td>
+                <td>{{userData.fullname}}</td>
+                <td>{{userData.email}}</td>
+                <td>{{userData.phone}}</td>
+                <td>{{userData.gen}}</td>
+                <td>{{userData.country}}</td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section>
+    <form name="myForm">
+        <table style="margin: 30px 0">
+            <tr>
+                <td class="add_label">Fullname: </td>
+                <td><input ng-model="userModel.fullname" name="txtFullName" required></td>
+            </tr>
+            <tr>
+                <td class="add_label">Email: </td>
+                <td><input ng-model="userModel.email" name="txtEmail" required></td>
+            </tr>
+            <tr>
+                <td class="add_label">Phone: </td>
+                <td><input ng-model="userModel.phone" name="txtPhone" required></td>
+            </tr>
+            <tr>
+                <td class="add_label">Gen: </td>
+                <td><input ng-model="userModel.gen" name="txtGen" required></td>
+            </tr>
+            <tr>
+                <td class="add_label">Country: </td>
+                <td><input ng-model="userModel.country" name="txtCountry" required></td>
+            </tr>
+            <tr>
+                <td class="add_label"></td>
+                <td><input class="btn btn-primary" type="button" value="Update" ng-disabled="btnUpdate" ng-click="updateData()"></td>
+            </tr>
+        </table>
+    </form>
+</section>
